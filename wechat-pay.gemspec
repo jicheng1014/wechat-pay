@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
-  s.required_ruby_version = '>= 2.6'
+  s.required_ruby_version = '>= 2.4.2'
   s.require_paths = ['lib']
   s.homepage = 'https://github.com/lanzhiheng/wechat-pay/'
   s.license = 'MIT'
